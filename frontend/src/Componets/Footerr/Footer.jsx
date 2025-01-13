@@ -1,6 +1,5 @@
 import React from 'react'
 import "../Footerr/Footer.css";
-import logo from '../../Assets/logo.png';
 function Footer() {
   return (
    <div class="bg-gray-800 text-white">
