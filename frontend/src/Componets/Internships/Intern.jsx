@@ -22,7 +22,7 @@ function Intern() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://internshipbackend-vwja.onrender.com/api/internship');
+        const response = await axios.get('https://intern-aura.vercel.app/api/internship');
         setInternData(response.data);
         console.log(response.data);
       } catch (error) {
