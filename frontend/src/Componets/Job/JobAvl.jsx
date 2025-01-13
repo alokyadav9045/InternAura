@@ -13,7 +13,7 @@ const [isDivVisible,setDivVisible]=useState(false)
 useEffect(()=>{
   const fetchData= async()=>{
       try {
-      const response= await axios.get(`https://internshipbackend-vwja.onrender.com/api/job`)
+      const response= await axios.get(`https://intern-aura.vercel.app/api/job`)
       setJobData(response.data)
   } catch (error) {
          console.log(error) 
