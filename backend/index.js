@@ -22,6 +22,11 @@ app.use((req,res,next)=>{
     res.header("Access-Control-Allow-Origin","*")
     next()
  })
+app.use(cors({ origin: 'https://internaura-app.vercel.app' }));
+
+app.get('/api/job', (req, res) => {
+  res.json({ message: 'CORS issue fixed!' });
+});
 app.listen(port,()=>{
     console.log("server is running on port ")
 })
