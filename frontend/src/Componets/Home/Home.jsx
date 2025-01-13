@@ -17,7 +17,7 @@ const [internshipData,setInternshipData]=useState([])
 useEffect(()=>{
     const fetchData= async()=>{
         try {
-        const response= await axios.get(`https://intern-aura.vercel.app/api/internship`)
+        const response= await axios.get(`https://intern-aura-2dwiql35l-alokyadav9045s-projects.vercel.app/api/internship`)
         setInternshipData(response.data)
     } catch (error) {
            console.log(error) 
