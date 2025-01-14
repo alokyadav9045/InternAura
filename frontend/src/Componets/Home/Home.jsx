@@ -8,6 +8,7 @@ import Job from './Job';
 import logo from '../../Assets/logo.png';
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import InternshipData from '../Data/InternshipDatAvl';
 function Home() {
 
 
