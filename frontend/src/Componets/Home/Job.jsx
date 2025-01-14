@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import JobData from '../Data/JobsDataAvl';
 function Job() {
     const [currentSlide,setCurrentSlide]=useState(0)
     const [selectedCategory,setSelectedCategory]= useState("Big Brands")
